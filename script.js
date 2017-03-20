@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('.grid').masonry({
   itemSelector: '.grid-item',
-  gutter: 20
+  gutter: '.5vw'
 });
   $('#nav_list').onePageNav();
 })
